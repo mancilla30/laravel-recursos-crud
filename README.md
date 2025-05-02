@@ -59,6 +59,40 @@ php artisan route:clear
 php artisan view:clear
 ```
 
+### Autenticación y Login
+```bash
+# Instalar laravel/breeze (UI de autenticación minimalista)
+composer require laravel/breeze --dev
+
+# Instalar laravel/ui (Alternativa con Bootstrap)
+composer require laravel/ui
+
+# Instalar autenticación con Bootstrap
+php artisan ui bootstrap --auth
+
+# O instalar Breeze con sus vistas
+php artisan breeze:install
+php artisan migrate
+
+# Instalar dependencias frontend y compilar
+npm install
+npm run dev
+
+# Si prefieres Laravel Jetstream (UI más completa)
+composer require laravel/jetstream
+
+# Instalar Jetstream con Livewire
+php artisan jetstream:install livewire
+
+# O Jetstream con Inertia
+php artisan jetstream:install inertia
+
+# Después de instalar Jetstream, ejecutar
+php artisan migrate
+npm install
+npm run build
+```
+
 ### Otros Comandos Útiles
 ```bash
 # Listar todas las rutas
