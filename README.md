@@ -57,6 +57,9 @@ php artisan route:clear
 
 # Limpiar vistas
 php artisan view:clear
+
+# Crear enlace simbólico del storage
+php artisan storage:link    # Crea un enlace simbólico de public/storage a storage/app/public para archivos públicos
 ```
 
 ### Autenticación y Login
