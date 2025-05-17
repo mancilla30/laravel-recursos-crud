@@ -25,6 +25,9 @@ php artisan migrate
 # Revertir última migración
 php artisan migrate:rollback
 
+# Revertir migraciones hasta un batch específico
+php artisan migrate:rollback --batch=3
+
 # Refrescar migraciones (rollback + migrate)
 php artisan migrate:refresh
 
