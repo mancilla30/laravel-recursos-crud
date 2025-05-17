@@ -27,6 +27,9 @@ php artisan migrate:rollback
 
 # Refrescar migraciones (rollback + migrate)
 php artisan migrate:refresh
+
+# Eliminar todas las tablas de la base de datos
+php artisan migrate:reset
 ```
 
 ### Modelos y Controllers
