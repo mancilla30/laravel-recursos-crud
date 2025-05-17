@@ -1,4 +1,4 @@
-# Laravel-Curso-Recursos
+# Recursos Laravel
 
 ## Comandos Laravel Comunes
 
