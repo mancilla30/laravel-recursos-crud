@@ -127,4 +127,4 @@ php artisan make:factory NombreFactory --model=NombreModelo
 
 # Crear factory con estado personalizado
 php artisan make:factory NombreFactory --state
-```
+``
