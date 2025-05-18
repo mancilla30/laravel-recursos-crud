@@ -113,6 +113,9 @@ php artisan make:seeder NombreSeeder
 # Ejecutar seeders
 php artisan db:seed
 
+# Ejecutar un seeder específico
+php artisan db:seed --class=NombreSeeder
+
 # Crear middleware
 php artisan make:middleware NombreMiddleware
 ```
