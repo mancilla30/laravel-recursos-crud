@@ -33,6 +33,9 @@ php artisan migrate:refresh
 
 # Eliminar todas las tablas de la base de datos
 php artisan migrate:reset
+
+# Eliminar todas las tablas y ejecutar todas las migraciones y seeders
+php artisan migrate:fresh --seed
 ```
 
 ### Modelos y Controllers
