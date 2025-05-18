@@ -115,7 +115,16 @@ php artisan db:seed
 
 # Ejecutar un seeder específico
 php artisan db:seed --class=NombreSeeder
+```
 
-# Crear middleware
-php artisan make:middleware NombreMiddleware
+### Comandos de Factories
+```bash
+# Crear una nueva factory
+php artisan make:factory NombreFactory
+
+# Crear factory para un modelo existente
+php artisan make:factory NombreFactory --model=NombreModelo
+
+# Crear factory con estado personalizado
+php artisan make:factory NombreFactory --state
 ```
