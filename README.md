@@ -4,6 +4,12 @@
 
 ### Instalación y Configuración
 ```bash
+# Instalar Laravel globalmente
+composer global require laravel/installer
+
+# Crear nuevo proyecto usando el instalador de Laravel
+laravel new example-app
+
 # Crear nuevo proyecto Laravel
 composer create-project laravel/laravel nombre-proyecto
 
